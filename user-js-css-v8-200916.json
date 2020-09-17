@@ -1,0 +1,118 @@
+{
+  "libs": [{
+    "name": "jQuery 3",
+    "src": "@extension@jquery.min.js"
+  }],
+  "settings": {
+    "badgeCounter": false,
+    "editorConfig": {
+      "enableBasicAutocompletion": false,
+      "enableLiveAutocompletion": true,
+      "enableSnippets": true,
+      "fontSize": 15,
+      "highlightActiveLine": false,
+      "keyboardHandler": false,
+      "showPrintMargin": false,
+      "tabSize": 4,
+      "theme": "ace/theme/tomorrow",
+      "useSoftTabs": false,
+      "useWorker": true,
+      "wrap": true
+    },
+    "supportBtn": false,
+    "themesFolder": ["chrome", "clouds", "dawn", "dracula", "dreamweaver", "eclipse", "github", "monokai", "solarized_dark", "solarized_light", "textmate", "tomorrow", "tomorrow_night", "twilight"],
+    "version": 8
+  },
+  "sites": [{
+    "compiledCss": "[title=\"Warm Line Call Report\"] {background-color: rgb(0, 204, 153)!important;}",
+    "css": "[title ='Warm Line Call Report'] {\n\tbackground-color: #0C9;\n}",
+    "id": "https://na0.icarol.com/secure/reports/SelectReportVersion.aspx",
+    "js": "$(\"[title ='Warm Line Call Report']\")[0].click()",
+    "libs": [],
+    "name": "Auto-Select Report Type: Warm Line",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }, {
+    "compiledCss": "#reverseOrderButton {padding-top: 2px!important; position: fixed!important; width: 60px!important; height: 60px!important; top: 155px!important; left: 700px!important; font-size: 5.5em!important; background-color: rgba(0, 204, 153, 0.32)!important; border-radius: 50px!important; text-align: center!important; box-shadow: rgb(153, 153, 153) 2px 2px 3px!important;}#reverseOrderButton:active {color: blue!important; box-shadow: rgb(153, 153, 153) 1px 1px 2px!important;}",
+    "css": "#reverseOrderButton{\n\tpadding-top: 2px;\n\tposition:fixed;\n\twidth:60px;\n\theight:60px;\n\ttop:155px;\n\tleft: 700px;\n\tfont-size: 5.5em;\n\tbackground-color:#00cc9952;\n\tcolor:#00000;\n\tborder-radius:50px;\n\ttext-align:center;\n\tbox-shadow: 2px 2px 3px #999;\n}\n\n#reverseOrderButton:active {\n\tcolor: blue;\n\tbox-shadow: 1px 1px 2px #999;\n}",
+    "id": "https://na0.icarol.com/secure/forum*",
+    "js": "$('head').append($(\"<script src='https://kit.fontawesome.com/29c8b6a8a8.js' crossorigin='anonymous'></script>\"))\n\nvar tbody = $('#cphBody_tblThread tbody');\n\nif (tbody.children().get().length > 3) {\n\t\n\t// add button\n\ttbody.append($(\"<i id='reverseOrderButton' class='fas fa-sort'/></i>\"));\n\t\n\t$(\"#reverseOrderButton\").click(function() {\n\t\tflipTable(tbody);\n\t});\n\t\n\tfunction chunkArray(array, size) {\n\t    let result = []\n\t    for (let i = 0; i < array.length; i += size) {\n\t        let chunk = array.slice(i, i + size)\n\t        result.push(chunk)\n\t    }\n\t    return result\n\t}\n\t\n\tfunction flipTable(tbody) {\n\t\tvar posts = $('tr', tbody).get();\n\t\tvar reverse_posts = chunkArray(posts, 3).reverse().flat();\n\t\ttbody.append(reverse_posts);\n\t}\n\n}",
+    "libs": [],
+    "name": "Chatboard Reverse Posts Button",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }, {
+    "compiledCss": "form {background: linear-gradient(to right, transparent, mistyrose) 60% 0% repeat-y, url(\"https://images.unsplash.com/photo-1470963162340-def4fd43095d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80\")!important; box-shadow: white 0px 0px 8px 8px inset!important;}table {background-color: rgba(170, 170, 170, 0.1)!important;}tbody {background-color: rgba(255, 240, 170, 0.2)!important;}#cphBody_tblReportsList tr {background-color: rgb(255, 255, 255)!important;}",
+    "css": "form{\n\t\n\tbackground: linear-gradient(to right, transparent, mistyrose),\n \turl(\"https://images.unsplash.com/photo-1470963162340-def4fd43095d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80\");\n\tbackground-repeat: repeat-y;\n\tbackground-position: 60% 0%;\n\tbox-shadow: 0 0 8px 8px white inset;\n}\n   \ntable{\n\tbackground-color: rgba(170, 170, 170, .1);\n}\n\ntbody{\n\tbackground-color: rgba(288, 240, 170, .2);\n}\n\n#cphBody_tblReportsList tr{\n\tbackground-color: rgb(255, 255, 255);\n}",
+    "id": "https://na0.icarol.com/*",
+    "js": "",
+    "libs": [],
+    "name": "Global Background Styling",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }, {
+    "compiledCss": "input[name=\"ctl00$cphBody$btnSearch\"] {width: 82px !important;}",
+    "css": "input[name=\"ctl00$cphBody$btnSearch\"]{\n\twidth: 82px!important;\n}",
+    "id": "https://na0.icarol.com/secure/reports/ReportMain.aspx",
+    "js": "var search_field = $(\"[name='ctl00$cphBody$txtSearch'\")\nvar search_button = $(\"[name='ctl00$cphBody$btnSearch']\")\nfunction search_text () {\n\treturn search_field.val()\n}\n\t\nsearch_button.click(function (e) {\n\tif (search_text().length === 7 && search_text().match(/\\d{7}/g)) {\n\t\te.preventDefault()\n\t\tconsole.log(search_text())\n\t\twindow.location.assign('https://na0.icarol.com/secure/profiles/ProfileView2.aspx?CallerNum=' + search_text())\n\t\tconsole.log(e)\n\t};\n})\n\nsearch_field.on(\"keyup change paste\", function () {\n\tif (search_text().length === 7) {\n\t\tsearch_button.prop(\"value\", \"Profile Lookup\");\n\t\tconsole.log(\"hit\")\n\t} else {\n\t\tsearch_button.prop(\"value\", \"Search\");\n\t\tconsole.log(\"miss\")\n\t}\n\tconsole.log(search_text)\n});",
+    "libs": [],
+    "name": "Contacts Profile Search",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }, {
+    "compiledCss": "",
+    "css": "",
+    "id": "https://na0.icarol.com/*&Action=New*",
+    "js": "var peer_checkbox = $(\"[fieldname='Peer Services'] >\");\n\n// not needed?\nfunction sleep(ms) {\n  return new Promise(resolve => setTimeout(resolve, ms));\n}\n\n// check peer services\nfunction peerServicesEnforcer() {\n\tif(!peer_checkbox.prop('checked')){\n\t\t$(\"[fieldname='Peer Services'] > \")[0].click();\n\t}\n}\npeerServicesEnforcer()\n",
+    "libs": [],
+    "name": "New Call Report Helper",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }, {
+    "compiledCss": ".flyCarolButton {position: fixed!important; width: 100px!important; height: 60px!important; font-size: 16px!important; font-weight: bold!important; background-color: rgba(0, 204, 153, 0.32)!important; border-radius: 50px!important; text-align: center!important; box-shadow: rgb(153, 153, 153) 2px 2px 3px!important; font-family: sans-serif!important; left: 950px!important;}#addWlReferralButton {top: 155px!important; padding-top: 5px!important;}#setTriageButton {top: 220px!important;}#addWlReferralButton:active {color: blue!important; box-shadow: rgb(153, 153, 153) 1px 1px 2px!important;}#addWlReferralButton.disabled {background-color: rgba(133, 146, 143, 0.32)!important; color: rgba(28, 31, 30, 0.32)!important;}.headless {opacity: 0.3!important;}",
+    "css": ".flyCarolButton{\n\tposition:fixed;\n\twidth:100px;\n\theight:60px;\n\tfont-size: 16px;\n\tfont-weight: bold;\n\tbackground-color:#00cc9952;\n\tcolor:#00000;\n\tborder-radius:50px;\n\ttext-align:center;\n\tbox-shadow: 2px 2px 3px #999;\n\tfont-family: Sans-Serif;\n\tleft: 950px;\n}\n\n#addWlReferralButton{\n\ttop:155px;\n\tpadding-top: 5px;\n}\n\n#setTriageButton{\n\ttop:220px;\n}\n\n#addWlReferralButton:active {\n\tcolor: blue;\n\tbox-shadow: 1px 1px 2px #999;\n}\n\n#addWlReferralButton.disabled {\n\tbackground-color:#85928f52;\n\tcolor: #1c1f1e52;\n}\n\n.headless {\n\topacity: .3;\n}",
+    "id": "&Action=New*",
+    "js": "var iframe = $(\"iframe#frResources\")\nvar iframeContainer = iframe.parent().parent()\n\n// wait for load in iframe\nvar waitForIframeEl = function(selector, callback) {\n\t// console.log(window.frames[0])\n  try {\n  \twindow.frames[0].$(selector).length\n  \t// console.log(\"firing callback\")\n    callback();\n  } catch(err) {\n  \tconsole.log(\"Error in waitForIframeEl: \" + err)\n    setTimeout(function() {\n    \t// console.log(\"waitForIframeEl setting timeout\")\n      waitForIframeEl(selector, callback);\n    }, 100);\n  }\n};\n\n// wait for load in doc\nvar waitForEl = function(selector, callback) {\n  if ($(selector).length) {\n  \tconsole.log(\"firing callback\")\n    callback();\n  } else {\n    setTimeout(function() {\n    \tconsole.log(\"setting timeout\")\n      waitForEl(selector, callback);\n    }, 100);\n  }\n};\n\n\n// build WL Referral button\n$(\"#MainContent\").append($(\"<button id='addWlReferralButton' class='flyCarolButton'>Warm Line Referral</button>\"))\n\n// add WL ref button click listener\n$(\"#addWlReferralButton\").click(function (e) {\n\te.preventDefault()\n\tif (canReferWarmline()) {\n\t\treferWarmline()\n\t}\n})\n\n// add Resource Iframe opacity reset on-click to deal with referWarmline() failing to remove .headless\n$(\"#hlSearchResources\").click(function () {\n\tiframeContainer.removeClass(\"headless\")\n})\n\n// check if WL already referred\nvar canReferWarmline = function () {\n\treturn !$(\"a#cphBody_ShowResource30650266\").length\n}\n\nvar resetIframe = function () {\n\tsetTimeout(function(){\n\t\ttry {\n\t\t\twindow.frames[0].CloseWindow()\n\t\t} catch(err) {\n\t\t}\n\t\tiframeContainer.removeClass(\"headless\")\n\t\t$(\"#addWlReferralButton\").html(\"Warm Line Referral\")\n\t}, 5000);\n}\n\n// navigate the resource modal and refer WL\nvar referWarmline = function () {\n\t// check Peer Service Referral \n\t\n\tif($(\"[fieldname='Peer service referral '] > \").prop(\"checked\") === false){\n        $(\"[fieldname='Peer service referral '] > \")[0].click();\n    }\n\t\n\t// open Resource modal\n\t$(\"#hlSearchResources\")[0].click()\n\t\n\t// display iframe empty and button with elipses\n\tiframeContainer.addClass(\"headless\")\n\t$(\"#addWlReferralButton\").html(\"...\")\n\t\n\t// start timer to fix bugging iframe\n\tresetIframe()\n\t\n\t// navigate resources and refer WL\n\tiframe.on(\"load\", function () {\n\t\tiframe.off(\"load\")\n\t\twindow.frames[0].$(\"a:contains(California Warmlines)\")[0].click()\n\t\tconsole.log(\"debug: auto-clicked California Warmlines\")\n\t\twaitForIframeEl(\"input#MakeReferral30650266\", function() {\n\t\t\twindow.frames[0].$(\"input#MakeReferral30650266\")[0].click()\n\t\t\tconsole.log(\"debug: auto-clicked make referrals\")\n\t\t\twaitForIframeEl(\"#MakeReferral30650266[value='Referral made']\", function() {\n\t\t\t\tiframeContainer.removeClass(\"headless\")\n\t\t\t\t$(\"#addWlReferralButton\").html(\"Warm Line Referral\")\n\t\t\t\twindow.frames[0].CloseWindow()\n\t\t\t\tconsole.log(\"debug: auto-clicked close iframe\")\n\t\t\t})\n\t\t});\n\t})\n}\n\n\n\n// check if WL referred and disable or enable button\n$(document).on('DOMNodeInserted DOMNodeRemoved', function () {\n\tif (canReferWarmline()) {\n\t\t$(\"#addWlReferralButton\").removeClass(\"disabled\")\n\t} else {\n\t\t$(\"#addWlReferralButton\").addClass(\"disabled\")\n\t}\n})\n\n// build Triage button\n$(\"#MainContent\").append($(\"<button id='setTriageButton' class='flyCarolButton'>Insta-Triage</button>\"))\n\n\n// add Triage button click listener\n$(\"#setTriageButton\").click(function (e) {\n\te.preventDefault()\n\tsetTriage()\n})\n\nvar setTriage = function () {\n\t$('#cphBody_96660 option[value=\"711837\"]').prop(\"selected\", \"selected\");\n\tif (canReferWarmline()) {\n\t\treferWarmline()\n\t}\n\t$(\"#cphBody_btnReportSubmit\").click()\n};",
+    "libs": [],
+    "name": "Add WL Referral Button + Triage Button",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }, {
+    "compiledCss": "",
+    "css": "",
+    "id": "https://na0.icarol.com/secure/reports/*, !https://na0.icarol.com/secure/reports/*&Action=New, !https://na0.icarol.com/secure/reports/*&Action=Edit*",
+    "js": "var p = $('span:contains(\"Peer Services\")')\n\nif (p.length) {\n\tp.css(\"background-color\", \"chartreuse\");\n} else {\n\tvar l = $('b:contains(\"Mental Health\")')\n\tl.css(\"background-color\", \"crimson\").append(\" MISSING PEER SERVICES\")\n}\n\n",
+    "libs": [],
+    "name": "Call Review Highlighting",
+    "options": {
+      "altCSS": false,
+      "altJS": false,
+      "autoImportant": false,
+      "on": true
+    }
+  }]
+}
