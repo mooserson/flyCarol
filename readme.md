@@ -11,5 +11,9 @@ https://www.google.com/chrome/
 
 ![flyCarol JSON install](assets/install_flyCarol_JSON.gif) 
 
-5. To enable or disable a certain feature click the extension and toggle 
+5. To enable or disable a certain feature click the extension, toggle the feature and refresh the page:
+
+![flyCarol Config](assets/config_flyCarol.gif) 
+
+
 6. This is a beta so feel free to try and break it and let me know how it all goes! paul(dot)cathey(at)mentalhealthsf.org
