@@ -1,4 +1,4 @@
-# flyCarol
+# flyCarol [beta!]
 ## Tools to make iCarol more usable and enjoyable (specifically for SF-WL)
 
 
@@ -10,3 +10,6 @@ https://www.google.com/chrome/
 4. Upload the JSON into the User JS and CSS Extention as shown below:
 
 ![flyCarol JSON install](assets/install_flyCarol_JSON.gif) 
+
+5. To enable or disable a certain feature click the extension and toggle 
+6. This is a beta so feel free to try and break it and let me know how it all goes! paul(dot)cathey(at)mentalhealthsf.org
