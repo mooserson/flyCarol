@@ -18,3 +18,22 @@ https://www.google.com/chrome/
 
 
 6. This is a beta so feel free to ask me for help so I know what is not working, try and break it and let me know how it is! Thanks, email: paul(dot)cathey(at)mentalhealthsf.org
+
+
+## Current Features (v0.3)
+-Profile ID search on contacts page (using normal search bar enter profile id and the button should show `Profile Search` instead of `Search`)
+
+-Button to reverse order of chatboard messages
+  -Button to start new message in chatboard
+
+-Go-to-top button everywhere
+
+-Instant WL Referral and Instant Triage buttons in New Call Report.
+  -Also CalHope version of the above. 
+  -Instant triage won't work without something in the Name field
+
+-New Call Report auto-checks “Peer Services”
+
+-Optional auto-select WL or CalHope call report
+  -On the `Call Report Select Screen` click on the Chrome extension and toggle WL or CalHope. You can always turn this off by opening the chrome extension and toggling them back off. 
+  -Now when you click `New Call Report` the next screen will aoutmatically select your desired call report type.
