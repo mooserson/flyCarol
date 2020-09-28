@@ -2,7 +2,8 @@
 ### Tools to make iCarol more usable and enjoyable (specifically for SF-WL and CH)
 
 
-## Installation (installation walkthrough video: https://www.loom.com/share/386f8a5dafbe4d5e89d23cbd09179b85)
+### Installation 
+#### (installation walkthrough video: https://www.loom.com/share/386f8a5dafbe4d5e89d23cbd09179b85)
 1. Install Chrome (currently only Chrome is working):
 https://www.google.com/chrome/
 2. Install User JS and CSS Chrome Extension: https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld
@@ -20,7 +21,7 @@ https://www.google.com/chrome/
 6. This is a beta so feel free to ask me for help so I know what is not working, try and break it and let me know how it is! Thanks, email: paul(dot)cathey(at)mentalhealthsf.org
 
 
-## Current Release
+### Current Release
 (v0.4)
 #### New Features
 -Resources window no longer shows up when using auto WL or CH referral
