@@ -29,11 +29,11 @@ https://www.google.com/chrome/
 -Go-to-top button everywhere
 
 -Instant WL Referral and Instant Triage buttons in New Call Report.
-  -Also CalHope version of the above. 
-  -Instant triage won't work without something in the Name field
+-Also CalHope version of the above. 
+-Instant triage won't work without something in the Name field
 
 -New Call Report auto-checks “Peer Services”
 
 -Optional auto-select WL or CalHope call report
-  -On the `Call Report Select Screen` click on the Chrome extension and toggle WL or CalHope. You can always turn this off by opening the chrome extension and toggling them back off. 
-  -Now when you click `New Call Report` the next screen will aoutmatically select your desired call report type.
+-On the `Call Report Select Screen` click on the Chrome extension and toggle WL or CalHope. You can always turn this off by opening the chrome extension and toggling them back off. 
+-Now when you click `New Call Report` the next screen will aoutmatically select your desired call report type.
