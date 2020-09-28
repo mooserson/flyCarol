@@ -20,7 +20,21 @@ https://www.google.com/chrome/
 6. This is a beta so feel free to ask me for help so I know what is not working, try and break it and let me know how it is! Thanks, email: paul(dot)cathey(at)mentalhealthsf.org
 
 
-## Current Features (v0.3)
+## Current Release
+(v0.4)
+#### New Features
+-Resources window no longer shows up when using auto WL or CH referral
+
+-Backgrounds for each day of the week with other slight iCarol style adustments
+
+-Fixed profile search display text
+
+-[Coordinators] Added N hotkey to go-to-next in call review
+
+
+## Past Releases
+(v0.3)
+
 -Profile ID search on contacts page (using normal search bar enter profile id and the button should show `Profile Search` instead of `Search`)
 
 -Button to reverse order of chatboard messages
