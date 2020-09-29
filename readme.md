@@ -21,7 +21,7 @@ https://www.google.com/chrome/
 6. This is a beta so feel free to ask me for help so I know what is not working, try and break it and let me know how it is! Thanks, email: paul(dot)cathey(at)mentalhealthsf.org
 
 
-### Current Release
+## Current Release
 (v0.4)
 #### New Features
 -Resources window no longer shows up when using auto WL or CH referral
