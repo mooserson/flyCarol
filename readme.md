@@ -3,7 +3,7 @@
 
 
 ### Installation 
-#### (installation walkthrough video: https://www.loom.com/share/386f8a5dafbe4d5e89d23cbd09179b85)
+
 1. Install Chrome (currently only Chrome is working):
 https://www.google.com/chrome/
 2. Install User JS and CSS Chrome Extension: https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld
