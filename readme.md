@@ -1,6 +1,7 @@
 # flyCarol [beta!]
 ### Tools to make iCarol more usable and enjoyable (specifically for SF-WL and CH)
 
+https://www.loom.com/share/032c3a70cde54e66a0c7604823ab030b <---- Install walkthrough video 
 
 ### Installation 
 
