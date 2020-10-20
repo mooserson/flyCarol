@@ -1,0 +1,44 @@
+kneeling camel case for html stuff and JS functions / variables
+
+/* WL/CH/PC triage/referral buttons */
+
+WL Color
+background-color:#1c3f9561;
+color: #ffc698;
+
+CH Color
+background-color: #ffc6988c;
+color: #1c3f95;
+
+Various Button Translucent Green
+background-color: #00cc9952;
+
+Font 
+font-family: Sans-Serif;
+
+
+
+.flyCarolButton {
+  position: fixed;
+  width: 100px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #00000;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  font-family: Sans-Serif;
+  left: 950px;
+  outline: none;
+}
+
+.flyCarolButton:active {
+  box-shadow: 1px 1px 1px #999;
+}
+
+.flyCarolButton.disabled {
+  background-color: #85928f52;
+  color: #1c1f1e52;
+}
+
