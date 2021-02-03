@@ -2,11 +2,11 @@ kneeling camel case for html stuff and JS functions / variables
 
 /* WL/CH/PC triage/referral buttons */
 
-WL Color
-background-color:#1c3f9561;
+WL Color blue
+background-color: #1c3f9561;
 color: #ffc698;
 
-CH Color
+CH Color oj
 background-color: #ffc6988c;
 color: #1c3f95;
 
@@ -15,8 +15,6 @@ background-color: #00cc9952;
 
 Font 
 font-family: Sans-Serif;
-
-
 
 .flyCarolButton {
   position: fixed;
